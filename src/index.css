@@ -48,7 +48,7 @@ body {
   background-color: var(--color-dark);
 }
 
-.sidebar ul {
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.sidebar li {
+li {
   display: grid;
   grid-template-columns: 4.8rem 1fr auto;
   align-items: center;
@@ -69,32 +69,32 @@ body {
 }
 
 .selected,
-.sidebar li:hover {
+li:hover {
   background-color: var(--color-lightest);
 }
 
-.sidebar li img {
+li img {
   border-radius: 50%;
   width: 100%;
   grid-row: span 2;
 }
 
-.sidebar li h3 {
+li h3 {
   grid-row: 1;
   grid-column: 2;
 }
 
-.sidebar li p {
+li p {
   grid-row: 2;
   grid-column: 2;
 }
 
-.sidebar li .button {
+li .button {
   grid-row: span 2;
   grid-column: 3;
 }
 
-.sidebar > .button {
+.button {
   float: right;
   margin-right: 1.2rem;
 }
